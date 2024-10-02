@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #CCD64B;
+  flex-direction: column;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: 50px auto;
+  background: #00FFAC;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2{
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form label{
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea{
+  background-color: #D5D5D5;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contact-form textarea{
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-form button{
+  width: 50%;
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-color: #FF0097;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.contact-form button:hover{
+  background-color: #08FF3F;
+  color: #000;
+}
+
+#responseMessage{
+  text-align: center;
+  margin-top: 20px;
+  color: #FF5400;
+}
+
+/*========put social media=========*/
+
+.social-media{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-media a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  gap: 20px;
+}
+.social-media a:hover{
+  background:#0BEFFF;
+  color: #000000;
+  box-shadow: 0 0 20px #000000;
+}
+
+.linkedin{
+  background-color: #0077b5;
+}
+
+.github{
+  background-color: #000;
+}
+
+.whatsapp{
+  background-color: #60f967;
+}
+
+.instagram{
+  background-color: rgba(255, 44, 0, 1);
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.facebook{
+  background-color: #3a78fb;
+}
+
+
+.footer{
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p{
+  margin: 0;
+  font-size: 14px;
+
+}
