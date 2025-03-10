@@ -132,7 +132,7 @@ body{
 }
 
 
-.footer{
+footer{
   text-align: center;
   padding: 10px 0;
   background-color: #333;
@@ -142,7 +142,7 @@ body{
   width: 100%;
 }
 
-.footer p{
+footer p{
   margin: 0;
   font-size: 14px;
 
