@@ -2,7 +2,7 @@
 /*========Contact form Function!=========*/
 
 document.addEventListener('DOMContentLoaded', function() {
-    emailjs.init("jFLEDGn_skCFjSsIR"); 
+    emailjs.init("U7IKzFW6OcToLhli1"); 
    // Replace with your EmailJS user ID
 
     const form = document.getElementById('contactForm');
@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+
+
 //Create your account on Emailjs.com
 //create a public key or user id
 //create a service id 
@@ -29,4 +32,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //Team AK
-//INSTAGRAM - amit_0_prajapati
+//INSTAGRAM - @cswithak
